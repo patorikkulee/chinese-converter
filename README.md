@@ -9,5 +9,6 @@
 
 > 簡轉繁
 ![s2t.png](https://github.com/sexypatrick/chinese-converter/blob/main/s2t.png)
+
 > 繁轉簡
 ![t2s.png](https://github.com/sexypatrick/chinese-converter/blob/main/t2s.png)
