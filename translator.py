@@ -50,17 +50,17 @@ entry.pack(pady=20)
 button_frame = Frame(root)
 button_frame.pack()
 
-# create clear button
-clear_button = Button(button_frame, text='清除', command=clear)
-clear_button.grid(row=0, column=0)
-
 # create translate(t2s) button
 translate_button = Button(button_frame, text='繁轉簡', command=t2s)
-translate_button.grid(row=0, column=1)
+translate_button.grid(row=0, column=0)
 
 # create translate(s2tw) button
 translate_button = Button(button_frame, text='簡轉繁', command=s2tw)
-translate_button.grid(row=0, column=2)
+translate_button.grid(row=0, column=1)
+
+# create clear button
+clear_button = Button(button_frame, text='清除', command=clear)
+clear_button.grid(row=0, column=2)
 
 # label for translation result
 output_label = Label(root, text="翻譯結果")
